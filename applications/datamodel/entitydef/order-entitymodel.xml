@@ -2996,4 +2996,7 @@ under the License.
             <key-map field-name="lastModifiedByUserLogin" rel-field-name="userLoginId"/>
         </relation>
     </entity>
+    <extend-entity entity-name="OrderItem">
+        <field name="reserveAfterDate" type="date-time"></field>
+    </extend-entity>
  </entitymodel>
